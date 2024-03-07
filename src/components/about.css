@@ -1,0 +1,68 @@
+.innovationSection {
+  padding: 0 20px;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.textContent,
+.imageContent {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+}
+
+.textContent {
+  width: 44%;
+  margin-left: 0;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .textContent {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.text {
+  color: #fff;
+  margin: auto 0;
+  font: 400 40px Poppins, sans-serif;
+  max-width: 100%;
+}
+
+.imageContent {
+  width: 56%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .imageContent {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.responsiveImage {
+  aspect-ratio: 0.83;
+  object-fit: cover;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .responsiveImage {
+    max-width: 100%;
+  }
+}

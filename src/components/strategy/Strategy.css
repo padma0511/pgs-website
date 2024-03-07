@@ -1,0 +1,398 @@
+/*  business Analysis page */
+
+/* title */
+
+.story {
+  /* padding-top: 100px;  */
+  /* padding-right: 30px; */
+ /* padding-left: 30px;   */ 
+ 
+  
+  /* background-color: black; */
+ color: #ffffff;
+
+ background-color: black;
+ 
+}
+.top{
+  padding-top: 70px;
+}
+
+.topbanner {
+  /* background-attachment: fixed;   */
+  background-image: url("../asserts/gif.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  min-height: 550px;
+  
+  background-size: cover;
+
+  -webkit-animation: background-anim-example-10 10s linear infinite;
+  animation: background-anim-example-10 10s linear infinite;
+  /* padding-top: 60px; */
+  /* padding-right: 50px; */
+
+   padding-right: 30px; 
+ padding-left: 30px;   
+}
+@-webkit-keyframes background-anim-example-10 {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes background-anim-example-10 {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.head{
+ padding-top: 40px;
+} 
+.business {
+  padding-top: 70px;
+  padding-right: 30px; 
+ padding-left: 30px; 
+ 
+ 
+ 
+ 
+}
+.bs-headline {
+  /* text-shadow: 1px 1px 1px hwb(0 7% 23%);    
+  */
+  line-height: 1.2;
+
+  font-family: "Arial", "Helvetica";
+  /* font-weight: 800; */
+  /* font-size: 35px; 
+   padding-top: 40px; */
+  color: #ffffff;
+  
+}
+
+/* business page para */
+
+.bus-para {
+  margin-top: 30px;
+  line-height: 1.75;
+
+  font-family: "Arial", "Helvetica";
+  font-size: 23px;
+  font-weight: 400;
+  color: #d9d9d9;
+  line-height: 38px;
+}
+.head {
+  padding-top: 20px;
+}
+
+/* subtitle */
+
+.business-sh {
+  color: #d9d9d9;
+  font-family: "Arial", "Helvetica";
+  font-size: 25px;
+  background: linear-gradient(
+    45deg,
+    #ff0506,
+    #ff0506,
+    #ff0506,
+    #ff0506,
+    #c142423d,
+    #c142423d,
+    #c142423d,
+    #c142423d
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px #ff0506);
+}
+
+/* subtitle-para */
+.business-para {
+  width: 90%;
+  font-size: 18px;
+  font-family: "Arial", "Helvetica";
+  color: #d9d9d9;
+  line-height: 30px;
+  padding-top: 5px;
+}
+
+.pb {
+  width: 450px;
+  height: 350px;
+  margin-left:18%;
+   /* margin-top: 20px;  */
+  margin-bottom: 90px;
+  filter: drop-shadow(0 0 10px #ad2020);
+  /* margin-top: -20px; */
+  margin-top: 80px;
+}
+.business-sh1 {
+  color: #d9d9d9;
+  font-family: "Arial", "Helvetica";
+  font-size: 25px;
+  padding-top: 70px;
+  background: linear-gradient(
+    45deg,
+    #ff0506,
+    #ff0506,
+    #ff0506,
+    #c142423d,
+    #c142423d,
+    #c142423d,
+    #c142423d,
+    #c142423d
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px #ff0506);
+}
+
+/* subtitle-para */
+.business-para1 {
+  width: 90%;
+  font-size: 18px;
+  font-family: "Arial", "Helvetica";
+  color: #d9d9d9;
+  line-height:  30px;
+  /* padding-top: 70px; */
+  padding-top: 5px;
+}
+.business-para-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.business-sh2 {
+  color: #d9d9d9;
+  font-family: "Arial", "Helvetica";
+  font-size: 25px;
+  /* margin-top: 100px; */
+  background: linear-gradient(
+    45deg,
+    #ff0506,
+    #ff0506,
+    #ff0506,
+    #c142423d,
+    #c142423d,
+    #c142423d,
+    #c142423d,
+    #c142423d
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px #ff0506);
+  padding-top: 40px;
+  margin-top: 120px;
+}
+
+/* subtitle-para */
+.business-para2 {
+  width: 90%;
+  font-size: 18px;
+  font-family: "Arial", "Helvetica";
+  color: #d9d9d9;
+  line-height: 30px;
+  /* margin-top: 200px; */
+  /* padding-top: 5px; */
+  /* padding-top: 120px;   */
+}
+@media screen and (max-width: 500px) and (max-width: 700px){
+  .pb {
+    /* Adjust styles for smaller screens */
+    width: 80%; /* Example adjustment */
+    height: auto; /* Example adjustment */
+    margin-left: 0; /* Example adjustment */
+    margin-bottom: 50px; /* Example adjustment */
+    margin-top: 0; /* Example adjustment */
+  }
+}
+
+
+@media screen and (max-width: 380px) and (max-width: 600px) and (max-width: 500px){
+  /* Styles to apply when screen width is 600px or less (typical for mobile screens) */
+
+  .head {
+    padding-top: 70px;
+  }
+  .head1 {
+    padding-top: 30px;
+  }
+  .bs-headline {
+    color: #d9d9d9;
+    font-family: "Arial", "Helvetica";
+    font-size: 20px;
+    margin-top: -50px;
+    /* filter: drop-shadow(0 0 10px #ff0c0c); 
+     background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506,#c142423d);
+ 
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent; */
+  }
+
+  .bus-para {
+    width: 121%;
+    font-size: 20px;
+    font-family: "Arial", "Helvetica";
+    margin-top: -9px;
+    line-height: 32px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #d9d9d9;
+
+    /* padding-left: 10px; */
+  }
+  
+  .business-sh {
+    filter: drop-shadow(none);
+    background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506, #c142423d);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+
+  .business-para {
+    font-size: 17px; /* Adjust font size for smaller screens */
+    line-height: 29px;
+    width: 110%;
+    font-family: "Arial", "Helvetica";
+  }
+  
+    .pb {
+      /* Adjust styles for smaller screens */
+      width: 100%; /* Example adjustment */
+      height: auto; /* Example adjustment */
+      margin-left: 0; /* Example adjustment */
+      margin-bottom: 50px; /* Example adjustment */
+      margin-top: 0; /* Example adjustment */
+    }
+  
+  .business-sh1 {
+    margin-top: 36px;
+    filter: drop-shadow(none);
+    background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506, #c142423d);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+  .business-para1 {
+    font-size: 17px; /* Adjust font size for smaller screens */
+    line-height: 29px;
+    width: 110%;
+    font-family: "Arial", "Helvetica";
+  }
+  .business-sh2 {
+    /* margin-top: 200px; */
+    /* filter: drop-shadow(none); 
+     background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506,#c142423d);
+ 
+     -webkit-background-clip: text;  */
+    /* -webkit-text-fill-color: transparent;
+     font-size: 20px; */
+    padding-top: 4px;
+    /* margin-top: 50px; */
+    margin-top: 36px;
+    filter: drop-shadow(none);
+    background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506, #c142423d);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+  .business-para2 {
+    font-size: 17px; /* Adjust font size for smaller screens */
+    line-height: 29px;
+    width: 110%;
+    font-family: "Arial", "Helvetica";
+    /* margin-top: -30px;  */
+  }
+}
+.trend {
+  width: 450px;
+  height: 350px;
+  margin-left: 4%;
+  /* margin-top: -50px; */
+  filter: drop-shadow(0 0 20px #ff0c0c);
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .align {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+
+    padding-top: 20px;
+    filter: drop-shadow(0 0 20px #ad2020);
+  }
+}
+
+@media (min-width: 768px) {
+  .align {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .trend {
+    display: none;
+  }
+}
+
+.Swotone {
+  width: 500px;
+  height: 350px;
+  /* margin-left: 6%; */
+  /* margin-top: -70px;  */
+  margin-top: 60px;
+  filter: drop-shadow(0 0 20px #ff0c0c);
+  /* margin-top: -90px; */
+  /* padding-right: 30px; */
+  padding-top: 40px;
+  margin-left:18%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Swotone {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 20px #ff0c0c);
+  }
+  .head3 {
+    margin-top: 100px;
+  }
+}
+
+
+/* Default styles for smaller screens */
+
+/* Example media query for desktop screens */
+
+
+/* business page end */
+
+/* MARKETING PAGE START */
+/* MARKETING PAGE START */
