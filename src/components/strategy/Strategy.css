@@ -20,7 +20,8 @@
 
 .topbanner {
   /* background-attachment: fixed;   */
-  background-image: url("../asserts/gif.jpg");
+  
+  background-image: url("../asserts/business/gif.jpg");
   background-repeat: no-repeat;
   background-position: center;
 
@@ -29,8 +30,8 @@
   
   background-size: cover;
 
-  -webkit-animation: background-anim-example-10 10s linear infinite;
-  animation: background-anim-example-10 10s linear infinite;
+  -webkit-animation: background-anim-example-10 15s linear infinite;
+  animation: background-anim-example-10 15s linear infinite;
   /* padding-top: 60px; */
   /* padding-right: 50px; */
 
@@ -90,7 +91,7 @@
 .bus-para {
   margin-top: 30px;
   line-height: 1.75;
-
+padding-right: 40px;
   font-family: "Arial", "Helvetica";
   font-size: 23px;
   font-weight: 400;

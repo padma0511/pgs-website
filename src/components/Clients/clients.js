@@ -1,14 +1,25 @@
 import React, { useEffect } from "react";
-import firstimage from "../asserts/360_F_265578022_3NbVGd1OZntLK46hjmv8EUisNYA3SqiM-removebg-preview-transformed.png";
-import secondimage from "../asserts/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B-removebg-preview.png";
-import thirdimage from "../asserts/images-removebg-preview-YoS47PuGp-transformed.png";
-// import clientimage from "../asserts/clientimage.png";
-// import cardimage from "../asserts/istockphoto-1369508766-612x612.jpg";
-import { DefaultPlayer as Video } from "react-html5video";
+// import firstimage from "../asserts/360_F_265578022_3NbVGd1OZntLK46hjmv8EUisNYA3SqiM-removebg-preview-transformed.png";
+// import secondimage from "../asserts/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B-removebg-preview.png";
+// import thirdimage from "../asserts/images-removebg-preview-YoS47PuGp-transformed.png";
+
+
+
+import firstimage from"../asserts/client/360-company.png";
+import secondimage from"../asserts/client/360-triangle.png";
+import thirdimage from"../asserts/client/slack img.png";
+import clientimage from"../asserts/client/clientimage.png";
+import cardimage from"../asserts/client/girlimg.jpg";
+
+
+
+
+
+
 import "react-html5video/dist/styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import forthimage from "../asserts/luxury-royal-wing-letter-hd-crest-gold-color-logo-victory-logo-crest-logo-wing-logo-logo-template-vector-removebg-preview-transformed.png";
+// import forthimage from "../asserts/luxury-royal-wing-letter-hd-crest-gold-color-logo-victory-logo-crest-logo-wing-logo-logo-template-vector-removebg-preview-transformed.png";
 import "../Clients/clients.css";
 
 function ImageGallery() {
@@ -44,7 +55,7 @@ function ImageGallery() {
             </div>
           </div>
           <div className="col-lg-6">
-            {/* <img
+            { <img
               src={clientimage}
               className="client-head-image"
               data-aos="fade-right"
@@ -53,7 +64,7 @@ function ImageGallery() {
               data-aos-easing="ease-in-sine"
               width="70%"
               alt="Service"
-            /> */}
+            /> }
           </div>
         </div>
       </div>
@@ -328,7 +339,7 @@ function ImageGallery() {
               <div id="carousel">
                 <div class="item">
                   <div className="c">
-                    {/* <img src={cardimage} alt="John" className="card-image" /> */}
+                    { <img src={cardimage} alt="John" className="card-image" /> }
 
                     <h1 className="client-name">John Doe</h1>
                     <p className="client-title">CEO & Founder, Example</p>
@@ -341,7 +352,7 @@ function ImageGallery() {
                 </div>
                 <div class="item">
                   <div className="c">
-                    {/* <img src={cardimage} alt="John" className="card-image" /> */}
+                    { <img src={cardimage} alt="John" className="card-image" /> }
 
                     <h1 className="client-name">John Doe</h1>
                     <p className="client-title">CEO & Founder, Example</p>
@@ -354,7 +365,7 @@ function ImageGallery() {
                 </div>
                 <div class="item">
                   <div className="c">
-                    {/* <img src={cardimage} alt="John" className="card-image" /> */}
+                    { <img src={cardimage} alt="John" className="card-image" /> }
 
                     <h1 className="client-name">John Doe</h1>
                     <p className="client-title">CEO & Founder, Example</p>
@@ -367,7 +378,7 @@ function ImageGallery() {
                 </div>
                 <div class="item">
                   <div className="c">
-                    {/* <img src={cardimage} alt="John" className="card-image" /> */}
+                    {<img src={cardimage} alt="John" className="card-image" /> }
 
                     <h1 className="client-name">John Doe</h1>
                     <p className="client-title">CEO & Founder, Example</p>
@@ -380,7 +391,7 @@ function ImageGallery() {
                 </div>
                 <div class="item">
                   <div className="c">
-                    {/* <img src={cardimage} alt="John" className="card-image" /> */}
+                    { <img src={cardimage} alt="John" className="card-image" /> }
 
                     <h1 className="client-name">John Doe</h1>
                     <p className="client-title">CEO & Founder, Example</p>

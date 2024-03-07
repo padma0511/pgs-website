@@ -1,7 +1,8 @@
 import React from "react";
-import PBimg from "../asserts/PBimg.png";
-import Trend from "../asserts/Trend.png";
-import Swot from "../asserts/Swot.png";
+import PBimg from"../asserts/business/PBimg.png";
+import Trend from"../asserts/business/Trend.png";
+import Swot from"../asserts/business/Swot.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../strategy/Strategy.css";

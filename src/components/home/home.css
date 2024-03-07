@@ -7,7 +7,7 @@
   margin-top: 30px;
   width: 100%;
   min-height: 700px;
-  background-image: url("../asserts/vector-background-in-the-concept-of-technology.jpg");
+  background-image: url("../asserts/home/H-bg.jpg");
   background-size: cover;
   -webkit-animation: background-anim-example-10 20s linear infinite;
   animation: background-anim-example-10 20s linear infinite;
@@ -234,7 +234,7 @@
   font-family: "Arial", "Helvetica";
 }
 
-@keyframes scale-a-lil {
+/* @keyframes scale-a-lil {
   from {
     transform: scale(0.5);
   }
@@ -243,17 +243,17 @@
 @media (prefers-reduced-motion: no-preference) {
   .gallery img {
     animation: scale-a-lil linear both;
-    animation-timing-function: view(); /* Corrected property */
+    animation-timing-function: view(); /* Corrected property 
     animation-fill-mode: both;
   }
-}
+} */
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 94px;
+  margin-top: 40px;
   padding: 10px 20px;
 }
 .column-1,
@@ -305,16 +305,26 @@
 }
 @media (max-width: 991px) {
   .gallery {
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch;
   }
-  .column-1,
+
+  /* .column-1,
   .column-2,
   .column-3 {
-    flex-basis: 100%;
-  }
+    flex-wrap: wrap;
+  } */
 }
-.slider1 {
+.slider-head {
+  text-shadow: 2px 2px 4px #680303;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  font-family: "Arial", "Helvetica";
+}
+/* .slider1 {
   padding-bottom: 70px;
 }
 .slider {
@@ -324,9 +334,9 @@
   overflow: hidden;
   position: relative;
   padding-top: 30px;
-}
+} */
 
-.slider-head {
+/* .slider-head {
   text-shadow: 2px 2px 4px #680303;
   color: #fff;
   text-align: center;
@@ -349,21 +359,21 @@
   top: 0;
   -webkit-transform: rotateZ(180deg);
   transform: rotateZ(180deg);
-}
+} */
 
-.slider::before {
+/* .slider::before {
   left: 0;
   top: 0;
 }
 
 .slide-track {
   display: flex;
-  /* Set the animation duration to a value that fits your content and scroll speed */
+  /* Set the animation duration to a value that fits your content and scroll speed
   -webkit-animation: scroll 10s linear infinite;
   animation: scroll 10s linear infinite;
-  /* Ensure enough width to accommodate all slides without gaps */
+  /* Ensure enough width to accommodate all slides without gaps 
   width: calc(250px * 28);
-}
+} */
 
 @keyframes scroll {
   0% {
@@ -375,10 +385,11 @@
   }
 }
 
-.slide {
+/* .slide {
   height: 100px;
   width: 250px;
-}
+} */
+
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -390,7 +401,6 @@
     transform: translateX(calc(-250px * 14));
   }
 }
-
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -401,4 +411,58 @@
     -webkit-transform: translateX(calc(-250px * 14));
     transform: translateX(calc(-250px * 14));
   }
+}
+
+
+
+
+.slider::before,
+.slider::after {
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  background: black;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  /* width: 960px; */
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import crm from'../asserts/crm.png';
-import tec from"../asserts/tec.png"
-import financial from"../asserts/finacial.png";
+ import React from "react";
+import crm from"../asserts/operation/crm.png";
+import tec from "../asserts/operation/tec.png";
+import financial from"../asserts/operation/finacial.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

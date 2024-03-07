@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Pic1 from "../asserts/pic1.jpeg";
-import Logoo from "../asserts/logoo.jpeg";
-import logooo from "../asserts/logooo.jpg";
-import logoooo from "../asserts/logooooo.jpg";
+import Pic1 from "../asserts/firstpage/pic1.jpeg";
+import Logoo from "../asserts/firstpage/logoo.jpeg";
+import logooo from "../asserts/firstpage/logooo.jpg";
+import logoooo from "../asserts/firstpage/logooooo.jpg";
 
 const Firstpage = () => {
   return (

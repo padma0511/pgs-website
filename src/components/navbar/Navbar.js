@@ -61,18 +61,18 @@ const Navbar = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <Link to="/BS" className="dropdown-item">
-                      Businessstrategy
+                      Business Strategy
                     </Link>
                   </li>
                   <li>
                     <Link to="/Marketingstrategy" className="dropdown-item">
-                      Marketingstrategy
+                      Marketing Strategy
                     </Link>
                   </li>
 
                   <li>
                     <Link to="/Operationalstrategy" className="dropdown-item">
-                      Operationalstrategy
+                      Operational Strategy
                     </Link>
                   </li>
                 </ul>

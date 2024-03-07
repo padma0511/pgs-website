@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 
 
-import ban1 from'../asserts/ban1.jpg';
-import ban2 from'../asserts/ban2.jpg';
-import ban3 from'../asserts/ban3.jpg';
-import ban4 from'../asserts/ban4.jpg';
+import ban1 from'../asserts/secondpage/ban1.jpg';
+import ban2 from'../asserts/secondpage/ban2.jpg';
+
+import ban3 from'../asserts/secondpage/ban3.jpg';
+import ban4 from'../asserts/secondpage/ban4.jpg';
 
 
 const Secondpage = () => {

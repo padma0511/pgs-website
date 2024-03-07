@@ -1,7 +1,20 @@
 .list {
   text-decoration: none;
 }
+.dropdown-item:active {
+  background-color: black;
+  background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506, #c142423d);
 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dropdown-item:hover{
+  background-color: black;
+  background: linear-gradient(45deg, #ff0506, #ff0506, #ff0506, #c142423d);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .navbar-nav .nav-link.active {
   font-size: 20px;
   font-family: "Arial", "Helvetica";
@@ -20,7 +33,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 10px #ff0506);
+  font-family: "Arial", "Helvetica";
+  
 }
+
+/* hover ul li */
+.navbar-nav li:hover .nav-link {
+  font-size: 22px; /* Adjust the font size as needed */
+}
+
 
 
 .nav-link:focus,
@@ -31,6 +52,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 10px #ff0506);
+  
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -63,6 +85,12 @@
   background-color: black;
   
 }
+
+/* strategy hover */
+.nav-item:hover{
+  font-size: 70px;
+ 
+}
 .dropdown-menu {
   background-color: black;
   color: white;
@@ -70,6 +98,8 @@
 }
 .dropdown-item {
   color: #ff1a12;
+  font-family: "Arial", "Helvetica";
+  font-size: 17px;
  
 }
 

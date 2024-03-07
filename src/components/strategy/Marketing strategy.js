@@ -1,6 +1,9 @@
-import Lead from "../asserts/lead.png";
-import Generation from "../asserts/generation.png";
-import web from "../asserts/web.png";
+import React from "react";
+
+
+import Lead from"../asserts/marketing/lead.png";
+import Generation from"../asserts/marketing/generation.png";
+import web from "../asserts/marketing/web.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../strategy/Strategy.css";

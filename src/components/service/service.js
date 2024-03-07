@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import appdevelopment from "../asserts/app_development-removebg-preview.png";
-import ServiceHeadImage from "../asserts/Service_24_7-amico-removebg-preview-transformed.png";
+import appdevelopment from "../asserts/service/app dev.png";
+
+import ServiceHeadImage from"../asserts/service/Service_SBG.png";
 import "../service/service.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
