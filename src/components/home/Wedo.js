@@ -8,11 +8,11 @@ import digitalInovation from"../asserts/home/INOVATE.png";
 import homeclient1 from "../asserts/home/h-client1.png";
 import homeclient2 from "../asserts/home/h-client2.png"
 import homeclient3 from"../asserts/home/h-client3.png"
-import "../home/home.css";
+import "../home/Wedo.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Home() {
+function Wedo() {
   useEffect(() => {
     AOS.init();
     const handleScroll = () => {
@@ -194,4 +194,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Wedo;

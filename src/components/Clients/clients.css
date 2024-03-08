@@ -11,7 +11,7 @@ body {
 .client-page-top1 {
   width: 100%;
   min-height: 400px;
-  background-image: url("../asserts/clientbg.jpg"); 
+  background-image: url("../asserts/client/clientbg.jpg"); 
   background-size: cover;
 }
 

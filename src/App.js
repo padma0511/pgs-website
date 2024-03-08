@@ -3,7 +3,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/home/Home";
+
+import Wedo from "./components/home/Wedo";
 import Service from "./components/service/service";
 import BS from "./components/strategy/BS";
 import Marketingstrategy from "./components/strategy/Marketing strategy";
@@ -29,7 +30,7 @@ const App = () => {
         {<Navbar />}
         {/* {<Home />} */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Wedo />} />
           <Route path="/service" element={<Service />} />
           <Route path="/BS" element={<BS />} />
           <Route path="/Marketingstrategy" element={<Marketingstrategy />} />

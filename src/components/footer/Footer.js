@@ -1,13 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import facebook from "../asserts/facebook.png";
-import linkedin from "../asserts/linkedin.png";
-import twitter from "../asserts/twitter.png";
-import instagram from "../asserts/instagram.png";
-import WhatsApp from "../asserts/whatsapp.png";
-import YouTube from "../asserts/youtube.png";
-import logo from"../asserts/logo.png";
+import facebook from "../asserts/footer/facebook.png";
+import linkedin from "../asserts/footer/linkedin.png";
+import twitter from "../asserts/footer/twitter.png";
+import instagram from "../asserts/footer/instagram.png";
+import WhatsApp from "../asserts/footer/whatsapp.png";
+import YouTube from "../asserts/footer/youtube.png";
+
+
+import logo from"../asserts/footer/logo.png";
 import "../footer/Footer.css"; // Import your CSS file
 import { Link } from "react-router-dom";
 

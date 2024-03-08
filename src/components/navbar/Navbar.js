@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
-import Logo from"../asserts/logo.png";
+import logo from"../asserts/navbar/logo.png";
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
       >
         <div className="container-fluid">
         <img
-                  src={Logo}
+                  src={logo}
                   className="blackpic"
                   alt=""
                   
